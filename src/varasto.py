@@ -11,7 +11,7 @@ class Varasto:
         else:
             # täyteen ja ylimäärä hukkaan!
             self.saldo = tilavuus
-
+    
     def _tarkasta_tilavuus(self, tilavuus):
         if tilavuus > 0.0:
             return tilavuus
